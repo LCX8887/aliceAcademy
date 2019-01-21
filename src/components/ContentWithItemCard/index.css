@@ -1,0 +1,21 @@
+.ContentWithItemCard {
+  background-color: white;
+  padding: 40px 10px;
+}
+
+.ContentWithItemCard .ant-col-8 :hover {
+  transform: scale(1.1);
+}
+.ContentWithItemCard hr {
+  display: block;
+  width: 150px;
+  height: 2px;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  background: linear-gradient(to right, #13beca, #4287da, #7847ec);
+  border: none;
+}
+.ContentWithItemCard .ant-col-8 p {
+  word-break: break-all;
+  margin: 10px 40px;
+}

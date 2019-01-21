@@ -1,0 +1,34 @@
+.ContentWithButton {
+  background-size: cover;
+  height: 400px;
+}
+.ContentWithButton p {
+  width: 50%;
+  padding: 70px 30px;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  word-break: break-word;
+  margin: 0 auto;
+}
+.ContentWithButton button {
+  background: linear-gradient(
+    45deg,
+    #13beca,
+    #4287da,
+    #7847ec,
+    transparent,
+    50%,
+    transparent 100%
+  );
+  border-radius: 5px;
+  border: solid 2px white;
+  color: white;
+  background-size: 428% 100%;
+  background-position: right bottom;
+  transition: all 0.65s ease-out;
+}
+.ContentWithButton button:hover {
+  background-position: left bottom;
+  border-color: #4691ea;
+}

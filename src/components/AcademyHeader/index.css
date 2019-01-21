@@ -1,0 +1,11 @@
+.AcademyHeader img {
+  float: left;
+  margin-top: 5px;
+}
+
+.AcademyHeader .Menu {
+  display: inline-block;
+}
+
+.AcademyHeader {
+}
